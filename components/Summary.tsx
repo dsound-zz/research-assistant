@@ -17,7 +17,7 @@ export default function Summary({ items }: SummaryProps) {
         <p className="text-xs uppercase tracking-[0.25em] text-slate-500">
           Overview
         </p>
-        <h2 className="font-serif text-2xl text-slate-900">Structured summary</h2>
+        <h2 className="font-serif text-[21px] text-slate-900">Structured summary</h2>
       </header>
       <ul className="list-disc space-y-2 pl-5 text-slate-800">
         {items.map((point, index) => (

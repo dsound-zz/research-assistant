@@ -17,10 +17,10 @@ export default function Home() {
           <p className="text-xs uppercase tracking-[0.4em] text-slate-500">
             Materials intelligence
           </p>
-          <h1 className="font-serif text-4xl text-slate-900">
+          <h1 className="font-serif text-[33px] text-slate-900">
             Scientific Research Assistant
           </h1>
-          <p className="max-w-3xl text-base text-slate-600">
+          <p className="max-w-3xl text-[13px] text-slate-600">
             Enter a technical question to obtain a structured summary, normalized
             data points, and expandable citations. The interface is intentionally
             terse to emphasize data quality.
@@ -36,7 +36,7 @@ export default function Home() {
             <Citations items={result.citations} />
           </div>
         ) : (
-          <section className="rounded-lg border border-dashed border-slate-300 bg-white/60 p-8 text-sm text-slate-600">
+          <section className="rounded-lg border border-dashed border-slate-300 bg-white/60 p-8 text-[11px] text-slate-600">
             Provide a specific research question - such as target materials,
             measurement conditions, or performance thresholds - to receive an
             analysis that prioritizes quantitative evidence.

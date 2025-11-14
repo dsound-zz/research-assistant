@@ -17,10 +17,10 @@ export default function DataTable({ rows }: DataTableProps) {
         <p className="text-xs uppercase tracking-[0.25em] text-slate-500">
           Extracted data
         </p>
-        <h2 className="font-serif text-2xl text-slate-900">Data points</h2>
+        <h2 className="font-serif text-[21px] text-slate-900">Data points</h2>
       </header>
       <div className="overflow-x-auto">
-        <table className="min-w-full table-fixed border-collapse text-sm">
+        <table className="min-w-full table-fixed border-collapse text-[11px]">
           <thead>
             <tr className="border-b border-slate-200 text-left text-slate-600">
               <th className="py-2 pr-4 font-semibold uppercase tracking-[0.2em]">

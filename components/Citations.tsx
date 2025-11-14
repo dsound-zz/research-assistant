@@ -17,7 +17,7 @@ export default function Citations({ items }: CitationsProps) {
         <p className="text-xs uppercase tracking-[0.25em] text-slate-500">
           References
         </p>
-        <h2 className="font-serif text-2xl text-slate-900">Citations</h2>
+        <h2 className="font-serif text-[21px] text-slate-900">Citations</h2>
       </header>
       <div className="space-y-3">
         {items.map((citation, index) => (
@@ -25,10 +25,10 @@ export default function Citations({ items }: CitationsProps) {
             key={`${citation.title}-${index}`}
             className="border border-slate-200 bg-slate-50/60 p-4 open:bg-white"
           >
-            <summary className="cursor-pointer list-none text-sm font-semibold text-slate-800">
+            <summary className="cursor-pointer list-none text-[11px] font-semibold text-slate-800">
               {citation.title}
             </summary>
-            <p className="mt-2 text-sm text-slate-600">{citation.excerpt}</p>
+            <p className="mt-2 text-[11px] text-slate-600">{citation.excerpt}</p>
             {citation.link && (
               <a
                 href={citation.link}
