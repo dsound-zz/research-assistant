@@ -14,7 +14,7 @@ export default function Home() {
     <main className="min-h-screen">
       <div className="mx-auto flex max-w-5xl flex-col gap-10 px-6 py-12">
         <header className="space-y-3 border-b border-slate-300 pb-8">
-          <p className="text-xs uppercase tracking-[0.4em] text-slate-500">
+          <p className="text-[9px] uppercase tracking-[0.4em] text-slate-500">
             Materials intelligence
           </p>
           <h1 className="font-serif text-[33px] text-slate-900">

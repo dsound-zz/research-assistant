@@ -14,7 +14,7 @@ export default function Citations({ items }: CitationsProps) {
   return (
     <section className="rounded-lg border border-slate-200 bg-white p-6">
       <header className="mb-4">
-        <p className="text-xs uppercase tracking-[0.25em] text-slate-500">
+        <p className="text-[9px] uppercase tracking-[0.25em] text-slate-500">
           References
         </p>
         <h2 className="font-serif text-[21px] text-slate-900">Citations</h2>
@@ -34,7 +34,7 @@ export default function Citations({ items }: CitationsProps) {
                 href={citation.link}
                 target="_blank"
                 rel="noreferrer"
-                className="mt-2 inline-flex text-xs uppercase tracking-[0.2em] text-slate-500 underline"
+                className="mt-2 inline-flex text-[9px] uppercase tracking-[0.2em] text-slate-500 underline"
               >
                 View source
               </a>

@@ -14,7 +14,7 @@ export default function Summary({ items }: SummaryProps) {
   return (
     <section className="rounded-lg border border-slate-200 bg-white p-6">
       <header className="mb-4">
-        <p className="text-xs uppercase tracking-[0.25em] text-slate-500">
+        <p className="text-[9px] uppercase tracking-[0.25em] text-slate-500">
           Overview
         </p>
         <h2 className="font-serif text-[21px] text-slate-900">Structured summary</h2>
